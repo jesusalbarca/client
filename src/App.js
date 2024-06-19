@@ -3,7 +3,7 @@ import io from 'socket.io-client'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {useState, useEffect} from 'react'
 import Formulario from './Formulario'; 
-const socket = io('http://4.178.97.147:4000')
+const socket = io('https://servidor-cwea.onrender.com')
 
 function App() {
 
